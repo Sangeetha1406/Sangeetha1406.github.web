@@ -1,0 +1,35 @@
+.box{
+    padding: 10px 20px 30px 40px;
+    border: 2px dotted rebeccapurple;
+    margin: 100px;
+    background-color: aquamarine;
+    width: 300px;
+    height: 200px;
+}
+.rect{
+    padding: 10px 20px 30px 40px;
+    border: 2px dotted rebeccapurple;
+    margin: 100px;
+    background-color: aquamarine;
+    height: 80px;
+    width: 30px;
+    background-color: mediumseagreen;
+}
+.a{
+    width: 300px;
+    height: 200px;
+    background-color: blueviolet;
+}
+.c{
+    width: 300px;
+    height:200px;
+    background-color: brown;
+}
+body {
+    background-image: url('C:\\Users\\pc\\Downloads\\Google.jfif');
+    background-size: cover;
+    height:100px;
+    width: 80px;
+    background-repeat: no-repeat;
+    
+}
