@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function display(){
+            console.log("calling")
+            let message=document.getElementById("message")
+            console.log(message)
+            message.innerHTML="calling display data"
+            message.style.color="purple"
+        }
+        function details(){
+            console.log("calling details")
+            let name=document.getElementById("name")
+            console.log(name)
+            console.log(name.value)
+            let details=document.getElementById("detail")
+            detail.innerHTML=name.value
+                 }
+                 function add(){
+                    // console.log("calling operators")
+                    let p=document.getElementById("num1")
+                     let q=document.getElementById("num2")
+                    let r=parseInt(p.value)
+                    let s=parseInt(q.value)
+                    let add1=document.getElementById()
+                    console.log(r+s)
+            
+                 }
+                 function sub(){
+                    // console.log("calling operators")
+                    let p=document.getElementById("num1")
+                     let q=document.getElementById("num2")
+                    let r=parseInt(p.value)
+                    let s=parseInt(q.value)
+                    console.log(r-s)
+            
+                 }
+                 function mul(){
+                    // console.log("calling operators")
+                    let p=document.getElementById("num1")
+                     let q=document.getElementById("num2")
+                    let r=parseInt(p.value)
+                    let s=parseInt(q.value)
+                    console.log(r*s)
+            
+                 }
+                 function div(){
+                    // console.log("calling operators")
+                    let p=document.getElementById("num1")
+                     let q=document.getElementById("num2")
+                    let r=parseInt(p.value)
+                    let s=parseInt(q.value)
+                    console.log(r/s)
+            
+                 }
+        //above code will replace the content inner html tag inside the div tag getting the address of div tag by getElement By Id.
+        //and storing it variable using fun var.innerhtml we can replace the data inside the div tag.0
+    </script>
+</head>
+<body>
+    <div id="message"></div>
+    <button onclick="display()">click Me</button>
+    <!-- <button onclick="display()">sumanthuu</button>
+    <button onclick="display()">sush</button>
+    <button onclick="display()">vaibhavi</button>
+    <button onclick="display()">akashu</button>
+    <button onclick="display()">vinay</button>
+    <button onclick="display()">navya</button>
+    <button onclick="display()">karthi</button>
+    <button onclick="display()">abhi</button>
+    <button onclick="display()">yshu</button>
+    <button onclick="display()">ullas</button>
+    <button onclick="display()">kavya</button> -->
+
+    <form>
+        <div>
+            <label>Enter name</label>
+            <input type="text" id="name">
+        </div>
+             <button onmouseover="details()">submit</button>
+             <div id="detail"></div>
+            </form>
+
+        <center><h1>operators</h1>
+        <form>
+            <div>
+                <label>Enter number1</label>
+                <input type="text" id="num1">
+                </div>
+                <div>
+                    <label>Enter number2</label>
+                    <input type="text" id="num2">
+                    </div><br>
+                    <div><button onmouseover="add()">addition</button></div><br>
+                    <form>
+                        <div>
+                            <label>Enter number1</label>
+                            <input type="text" id="num1">
+                            </div>
+                            <div>
+                                <label>Enter number2</label>
+                                <input type="text" id="num2">
+                                </div><br>
+                    <div><button onmouseover="sub()">subtraction</button></div><br>
+                    <form>
+                        <div>
+                            <label>Enter number1</label>
+                            <input type="text" id="num1">
+                            </div>
+                            <div>
+                                <label>Enter number2</label>
+                                <input type="text" id="num2">
+                                </div><br>
+                    <div><button onmouseover="mul()">division</button></div><br>      
+                    <form>
+                        <div>
+                            <label>Enter number1</label>
+                            <input type="text" id="num1">
+                            </div>
+                            <div>
+                                <label>Enter number2</label>
+                                <input type="text" id="num2">
+                                </div><br>    
+                 <button onmouseover="div()">multiplication</button>
+                    
+
+        </form></center>
+
+    <h3>sush sang sumanthu</h3>
+    <div id="message"></div>
+</body>
+</html>
